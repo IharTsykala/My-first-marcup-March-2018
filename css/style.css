@@ -1,0 +1,488 @@
+/*@font-face {
+    font-family: "sans";
+    src: url('');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "sans";
+    src: url('');
+    font-weight: 700;
+}*/
+/*.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    min-height: calc(100vh - 400px);
+    background: red;
+    background-color: rgba(0,0,0,0.67);
+    background: linear-gradient(from, to);
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  width: 1600px;
+  font-size: 16px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: rgb(76, 76, 76);
+  background-color: white;
+}
+.wrapper {
+  width: 1600px;
+  background-image: url("../assets/images/pattern.png");
+  background-color: #ececec;
+}
+/*HEADER*/
+header {
+  display: block;
+  height: 150px;
+  width: 1600px;
+  position: absolute;
+}
+
+.logo {
+  display: inline-block;
+  margin: 45px 0 0 180px;
+  width: 155px;
+  height: 25px;
+}
+header nav {
+  display: inline-block;
+  margin-left: 130px;
+}
+.navigation {
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  margin-left: 50px;
+  font-size: 21px;
+  font-family: "Gentium Book Basic" Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+}
+li a:visited {
+  color: rgb(255, 255, 255);
+}
+.social-icons-blok {
+  width: 125px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.social-icons-blok li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons-elements {
+  margin-left: 20px;
+}
+/*MAIN*/
+
+.promo {
+  padding-top: 215px;
+  background-image: url("../assets/images/promo.png");
+  display: block;
+  height: 530px;
+  width: 1600px;
+}
+.promo-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+  height: 200px;
+}
+h1 {
+  font-size: 90px;
+  font-family: "Yeseva One" Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.922);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.64);
+}
+.promo_divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.buttons_promo {
+  width: 500px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.button_promo_black {
+  display: inline-block;
+  width: 225px;
+  height: 55px;
+  margin-left: 10px;
+  z-index: 270;
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.702);
+  opacity: 0.8;
+}
+.button_promo_white {
+  display: inline-block;
+  width: 225px;
+  height: 55px;
+  margin-left: 30px;
+  z-index: 268;
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.278);
+  opacity: 0.702;
+}
+.about_cook {
+  display: block;
+  height: 710px;
+  width: 1450px;
+}
+.cook {
+  display: block;
+  width: 410px;
+  height: 500px;
+  float: left;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 290px;
+}
+.heding_about_cook {
+  display: block;
+  height: 35px;
+  font-size: 36px;
+  font-family: "Gentium Book Basic" Arial, Helvetica, sans-serif;
+  color: rgb(204, 153, 0);
+  line-height: 0.667;
+  text-align: center;
+}
+.divider_about_cook {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_cook {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo_cook {
+  display: block;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+.dish {
+  display: block;
+  height: 560px;
+  width: 560px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.ingredients {
+  height: 750px;
+  background-image: url("../assets/images/ingrediens.png");
+}
+.about_ingredient {
+  display: block;
+  float: right;
+  margin-top: 95px;
+  margin-right: 210px;
+  width: 560px;
+  height: 560px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.67;
+  z-index: 270;
+  text-align: center;
+}
+.heding_indredients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  font-size: 36px;
+  font-family: "Yeseva One" Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+.divider_indredients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+}
+.content_ingredints {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+.image_ingredients {
+  display: inline-block;
+  margin-top: 70px;
+  height: 150px;
+  width: 400px;
+}
+.wheat_ingredients {
+  border-radius: 50%;
+}
+.seasoning_ingredients {
+  margin-left: 25px;
+  border-radius: 50%;
+}
+.bread_ingredients {
+  margin-left: 25px;
+  border-radius: 50%;
+}
+.menu {
+  height: 1000px;
+  background-image: url("../assets/images/pattern_second.png");
+  background-color: #ececec;
+}
+div .alignment_menu {
+  height: 800px;
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.horizontal_alignment_menu {
+  float: left;
+  margin-left: 160px;
+  height: 800px;
+  width: 440px;
+}
+.blocks_menu {
+  margin-top: 70px;
+}
+table {
+  font-size: 15px;
+}
+td {
+  padding: 7px 0;
+}
+.name_dish_menu {
+  font-size: 25px;
+  font-family: "Yeseva One" Arial, Helvetica, sans-serif;
+  color: rgb(200, 159, 45);
+  line-height: 1.143;
+  text-align: justifyAll;
+}
+table h5 {
+  width: 385px;
+}
+.name_dish_menu td {
+  border-bottom: 0.25px solid rgb(200, 159, 45);
+}
+.spesial_menu {
+  background-color: rgb(200, 159, 45);
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+.rewiews {
+  height: 560px;
+  background-image: url("../assets/images/rewiews.png");
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.about_rewiews {
+  width: 765px;
+  height: 550px;
+  color: white;
+  opacity: 0.8;
+  z-index: 270;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.heading_rewiews {
+  display: inline-block;
+  font-size: 36px;
+  font-family: "Yeseva One" Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 80px;
+}
+.divider_rewiews {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.content_rewiews {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "GentiumBookBasic";
+  color: rgb(221, 224, 223);
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+}
+.signature_rewiews {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.reservations {
+  display: block;
+  height: 710px;
+}
+.image_reservations {
+  display: inline-block;
+  width: 570px;
+  height: 505px;
+  margin-top: 100px;
+  margin-left: 210px;
+}
+.reservations_image_desert {
+  margin-left: 25px;
+}
+.about_reservations {
+  display: block;
+  float: right;
+  height: 505px;
+  width: 430px;
+  margin-top: 100px;
+  margin-right: 295px;
+  text-align: center;
+}
+.heading_reservations {
+  display: block;
+  height: 35px;
+  font-size: 36px;
+  font-family: "Gentium Book Basic" Arial, Helvetica, sans-serif;
+  color: rgb(204, 153, 0);
+  line-height: 0.667;
+  text-align: center;
+}
+.divider_reservations {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_first_reservations {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_second_reservations {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form_reservations {
+  display: block;
+  height: 210px;
+  width: 430px;
+  margin-top: 35px;
+}
+.name_and_date_form_reservations {
+  display: block;
+  float: left;
+  width: 200px;
+}
+.email_and_num_form_reservations {
+  display: inline-block;
+  margin-left: 25px;
+  width: 200px;
+}
+.button_form_reservations {
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(204, 153, 0);
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  z-index: 280;
+  border-width: 1px;
+  border-color: rgb(204, 153, 0);
+  border-style: solid;
+}
+
+/*FOOTER*/
+footer {
+  height: 320px;
+  max-width: 1600px;
+  background: black;
+}
+footer article {
+  height: 190px;
+  float: left;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 16px;
+  font-family: "Open Sans" Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+}
+footer h3 {
+  font-size: 21px;
+  font-family: "Yeseva One" Arial, Helvetica, sans-serif;
+  color: rgb(254, 254, 254);
+  line-height: 1.1;
+}
+.about_us_footer {
+  display: inline-block;
+  width: 340px;
+  margin-left: 220px;
+}
+.time_work_footer {
+  display: inline-block;
+  width: 195px;
+  margin-left: 125px;
+}
+.adress_footer {
+  display: inline-block;
+  width: 195px;
+  margin-left: 200px;
+}
+.divider_footer {
+  margin-top: 15px;
+  margin-left: 0;
+}
+footer .content_footer {
+  margin-top: 15px;
+}
+footer img {
+  margin-top: 50px;
+  margin-left: 7px;
+}
